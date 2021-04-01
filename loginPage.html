@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="script/jquery-3.6.0.min.js"></script>
+    <script src="script/script.js"></script>
+</head>
+
+<body>
+    <header id="header">
+        <div id="innerHeader">
+            <div id="logo">
+                <a href="#"><img src="images/delonghi_vip_club.png" alt=""></a>
+            </div> <!-- div#logo -->
+
+            <nav id="gnb">
+                <ul id="mainMenu">
+                    <li class="mainLi">
+                        <a href="#">클럽 서비스 안내</a>
+                        <ul class="subMenu">
+                            <li><a href="#">드롱기 VIP 클럽 소개 </a></li>
+                            <li><a href="#">클럽 혜택 안내 </a></li>
+                            <li><a href="#">드롱기 홍보대사 특별선물 </a></li>
+                            <li><a href="#">드롱기 컨셉스토어</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">특별 구매ㆍ이벤트 </a>
+                        <ul class="subMenu">
+                            <li><a href="#">이달의 제품</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">이벤트 당첨자 발표</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi">
+                        <a href="#">마이페이지</a>
+                        <ul class="subMenu">
+                            <li><a href="#">멤버쉽 카드보기</a></li>
+                            <li><a href="#">추천 지인 정보</a></li>
+                            <li><a href="#">개인정보 관리</a></li>
+                        </ul>
+                    </li>
+                    <li class="mainLi"><a href="#">고객센터</a></li>
+                </ul>
+            </nav> <!-- nav#gnb -->
+
+            <div id="header_img">
+                <div id="icon">
+                    <a href="#"><img src="images/icon_login.png" alt="로그인아이콘"></a>
+                    <a href="#"><img src="images/icon_cart.png" alt="장바구니 아이콘"></a>
+                    <a href="JoinPage.html"><img src="images/icon_join.png" alt="회원가입 아이콘"></a>
+                    <a href="#"><img src="images/icon_shipping.png" alt="주문/배송조회 아이콘"></a>
+                </div>
+            </div> <!-- div#header_img -->
+
+        </div> <!-- div#innerHeader -->
+    </header> <!-- header#header -->
+
+    <div id="subMenuBG">
+        <div id="subMenuBGLayout"></div>
+    </div>
+
+    <div id="wrap">
+        <div id="loginArea_top">
+            <div id="icons">
+                <span>
+                    <a href="#"><img src="images/icon_home.png" alt="홈아이콘"></a>
+                    Log-in
+                </span>
+            </div> <!-- div#icons -->
+
+            <div id="loginTxt">
+                로그인
+                <hr>
+            </div> <!-- div#loginTxt -->
+        </div> <!--  div#loginArea_top-->
+
+        <div id="loginArea">
+            <p>VIP 클럽의 다양한 서비스와 혜택을 받으실 수 있습니다.</p>
+            <div id="loginInputArea">
+                <button type="button" id="tabBtn1">이메일</button>
+                <button type="button" id="tabBtn2">멤버쉽 번호</button>
+                <div id="inputArea1">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="E-mail" id="email">
+                            </td>
+                            <td rowspan="2">
+                                <a href="#"><button type="button">LOG IN</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input id="password" type="password" placeholder="Password">
+                            </td>
+                        </tr>
+                    </table>
+                </div> <!-- div#inputArea1 -->
+
+                <div id="inputArea2">
+                    <table>
+                        <tr>
+                            <td>
+                                <input type="text" placeholder="Membership Number">
+                            </td>
+                            <td rowspan="2">
+                                <a href="#"><button type="button">LOG IN</button></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <input type="password" placeholder="Password">
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+
+            </div>
+
+            <div id="tblBottom">
+                * 아이디는 회원가입 시 입력한 이메일 또는 멤버십 번호를 입력해주세요
+            </div>
+
+            <nav id="memberLNB">
+                <ul id="memberMainMenu">
+                    <li>
+                        <a href="#">
+                            <span class="bgIcon" id="memJoinIcon"></span>
+                            <span>회원가입</span>
+                        </a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#">
+                            <span class="bgIcon" id="findIDIcon"></span>
+                            <span>아이디 찾기</span>
+                        </a>
+                    </li>
+                    <li><span>|</span></li>
+                    <li>
+                        <a href="#">
+                            <span class="bgIcon" id="findPWIcon"></span>
+                            <span>비밀번호 찾기</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+        </div> <!-- div#loginArea -->
+    </div> <!-- div#wrap -->
+
+    <footer id="footer">
+        <div id="innerFooter">
+            <div id="footergnb">
+                <ul>
+                    <li><a href="#">개인정보 처리방침</a></li>
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">법적고지</a></li>
+                </ul>
+            </div>
+
+            <div id="copyright">
+                <div id="footerLogo">
+                    <img src="images/delonghi.png" alt="">
+                </div>
+
+                <div class="footer_copyright">
+                    <span>드롱기코리아 주식회사</span>
+                    <span>대표자: 에릭드카스텔바작</span>
+                    <span>사업자등록번호: 107-87-69257</span>
+                    <span>통신판매업신고: 2016-서울 서초-0448</span>
+                </div>
+
+                <div class="footer_copyright">
+                    <span>서울시 서초구 강남대로 623(잠원동)</span>
+                </div>
+
+                <div class="footer_copyright">
+                    <span>문의 : delonghivip.korea@delonghigroup.com   드롱기 컨셉 스토어 (강남) 02-6080-0024 (부산) 051-746-0029</span>
+                </div>
+
+            </div>
+        </div> <!-- div#innerFooter -->
+    </footer> <!-- footer#footer -->
+</body>
+
+</html>
